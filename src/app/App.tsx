@@ -1,9 +1,6 @@
 import {useTranslation} from "react-i18next";
+import {LANGUAGES} from "@core/i18n";
 
-enum LANGUAGES {
-  ru = "ru",
-  en = "en"
-}
 
 export function App() {
   const {t, i18n} = useTranslation();
