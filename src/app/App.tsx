@@ -13,9 +13,9 @@ export function App() {
       <h1 className="title">{t("title")}</h1>
 
       Content
-      <div>
-        <button onClick={() => switchLanguage(LANGUAGES.en)}>{LANGUAGES.en}</button>
-        <button onClick={() => switchLanguage(LANGUAGES.ru)}>{LANGUAGES.ru}</button>
+      <div className="buttons">
+        <button className="button is-primary" onClick={() => switchLanguage(LANGUAGES.en)}>{LANGUAGES.en}</button>
+        <button className="button is-primary" onClick={() => switchLanguage(LANGUAGES.ru)}>{LANGUAGES.ru}</button>
       </div>
     </main>
   );
