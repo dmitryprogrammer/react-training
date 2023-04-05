@@ -1,3 +1,9 @@
 {
-  "title": "This is i18 amazing title"
+  "title": "This is i18 amazing title",
+  "nav": {
+    "state": "State hook",
+    "effect": "Effect hook",
+    "context": "Context hook",
+    "ref": "Ref hook"
+  }
 }
