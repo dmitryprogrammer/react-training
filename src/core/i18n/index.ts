@@ -7,10 +7,13 @@ export enum LANGUAGES {
   en = "en"
 }
 
+export const SUPPORTED_LANGUAGES = ["ru", "en"];
+
 i18next
   .use(I18NextHttpBackend)
   .use(initReactI18next)
   .init({
     lng: "ru",
+    supportedLngs: SUPPORTED_LANGUAGES,
     interpolation: {escapeValue: false}
   });

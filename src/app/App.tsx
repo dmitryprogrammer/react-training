@@ -1,5 +1,6 @@
 import {useTranslation} from "react-i18next";
 import {LANGUAGES} from "@core/i18n";
+import {Navigation} from "../navigation";
 
 export function App() {
   const {t, i18n} = useTranslation();
@@ -11,6 +12,7 @@ export function App() {
   return (
     <main className="container">
       <h1 className="title">{t("title")}</h1>
+      <Navigation />
 
       Content
       <div className="buttons">
