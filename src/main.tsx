@@ -4,12 +4,12 @@ import {BrowserRouter} from "react-router-dom";
 
 import "./assets/styles/index.scss";
 import "./core/i18n";
-import {RouterConfig} from "./navigation";
+import {App} from "./app/App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
-      <RouterConfig />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

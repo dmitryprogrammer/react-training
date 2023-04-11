@@ -23,7 +23,7 @@ export function Navigation() {
       <ul>
         {navState
           ?.map((navItem: NavState, index: number) =>
-            <NavLink to={navItem.link}>
+            <NavLink to={navItem.link} key={index}>
               {({isActive}: {isActive: boolean}) => (<li key={index} className={isActive ? "is-active" : ""}>
                 {t(navItem.title)}
               </li>)}
