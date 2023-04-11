@@ -5,5 +5,13 @@
     "effect": "Effect hook",
     "context": "Context hook",
     "ref": "Ref hook"
+  },
+  "stateHook": {
+    "title": "State",
+    "description": "This is a page with demonstration of state hook work"
+  },
+  "effectHook": {
+    "title": "Effect",
+    "description": "This is a page with demonstration of effect hook work"
   }
 }
