@@ -13,5 +13,13 @@
   "effectHook": {
     "title": "Effect",
     "description": "This is a page with demonstration of effect hook work"
+  },
+  "contextHook": {
+    "title": "Context",
+    "description": "This is a page with demonstration of Context hook work"
+  },
+  "refHook": {
+    "title": "Ref",
+    "description": "This is a page with demonstration of Ref hook work"
   }
 }
