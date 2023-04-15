@@ -8,7 +8,10 @@
   },
   "stateHook": {
     "title": "State",
-    "description": "This is a page with demonstration of state hook work"
+    "description": "This is a page with demonstration of state hook work",
+    "examples": {
+      "description-1": "Here you can see simple example of usage component's state which you may change by clicking on any of buttons"
+    }
   },
   "effectHook": {
     "title": "Effect",
