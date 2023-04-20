@@ -10,7 +10,15 @@
     "title": "State",
     "description": "This is a page with demonstration of state hook work",
     "examples": {
-      "description-1": "Here you can see simple example of usage component's state which you may change by clicking on any of buttons"
+      "counter": {
+        "description-1": "Here you can see simple example of usage component's state which you may change by clicking on any of buttons"
+      },
+      "form": {
+        "name": {
+          "title": "name",
+          "placeholder": "Type your name"
+        }
+      }
     }
   },
   "effectHook": {
