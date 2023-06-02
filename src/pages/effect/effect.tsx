@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 import {useEffect, useState} from "react";
 
 export function Effect() {
-  const buttonClasses = {
+  const buttonClasses: {[propertyName: number]: string} = {
     1: "is-info",
     4: "is-success",
     6: "is-warning",
