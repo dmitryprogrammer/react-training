@@ -23,7 +23,8 @@
   },
   "effectHook": {
     "title": "Effect",
-    "description": "This is a page with demonstration of effect hook work"
+    "description": "This is a page with demonstration of effect hook work",
+    "increaseButton": "Click for increase"
   },
   "contextHook": {
     "title": "Context",

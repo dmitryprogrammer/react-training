@@ -25,8 +25,8 @@ export function Effect() {
       <h2 className="title is-4">{t("effectHook.title")}</h2>
       <p>{t("effectHook.description")}</p>
       <div className="buttons mt-4">
-        <button className={"button " + increaseButtonClass} onClick={() => setClickCount(clickCount + 1)}>Click for
-          increase
+        <button className={"button " + increaseButtonClass}
+                onClick={() => setClickCount(clickCount + 1)}>{"effectHook.increaseButton"}
         </button>
       </div>
 
