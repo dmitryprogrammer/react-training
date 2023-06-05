@@ -24,7 +24,8 @@
   "effectHook": {
     "title": "Хук эффекта",
     "description": "Эта страница демонстрирует работу хука эффекта",
-    "increaseButton": "Клинките для увеличения"
+    "increaseButton": "Клинките для увеличения",
+    "clickedNotificationText": "Вы нажали на увеличение {{clickCount}} раз"
   },
   "contextHook": {
     "title": "Хук контекста",

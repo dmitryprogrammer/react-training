@@ -26,11 +26,11 @@ export function Effect() {
       <p>{t("effectHook.description")}</p>
       <div className="buttons mt-4">
         <button className={"button " + increaseButtonClass}
-                onClick={() => setClickCount(clickCount + 1)}>{"effectHook.increaseButton"}
+                onClick={() => setClickCount(clickCount + 1)}>{t("effectHook.increaseButton")}
         </button>
       </div>
 
-      <span>You clicked increase {clickCount} times</span>
+      <span>{t("effectHook.clickedNotificationText", {clickCount})}</span>
     </>
   );
 }
