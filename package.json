@@ -21,20 +21,20 @@
   },
   "homepage": "https://github.com/dmitryprogrammer/react-training#readme",
   "devDependencies": {
-    "@types/react": "^18.0.30",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^3.1.0",
-    "react-router-dom": "^6.10.0",
-    "sass": "^1.63.6",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.1"
+    "react-router-dom": "^6.14.2",
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6"
   },
   "dependencies": {
     "bulma": "^0.9.4",
-    "i18next": "^22.4.13",
-    "i18next-http-backend": "^2.2.0",
+    "i18next": "^23.2.11",
+    "i18next-http-backend": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^12.2.0"
+    "react-i18next": "^13.0.2"
   }
 }
