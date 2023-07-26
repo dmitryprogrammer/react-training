@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 import {FormEvent, MutableRefObject, useRef, useState} from "react";
 
 export function RefHook() {
-  const {t} = useTranslation();
+  const {t} = useTranslation(null, {keyPrefix: "refHook"});
   const [controlState, setControlState] = useState("");
   const inputEl: MutableRefObject<HTMLInputElement> = useRef<HTMLInputElement>();
 
@@ -12,7 +12,7 @@ export function RefHook() {
     }
   };
 
-  const focusStateControl = (e) => {
+  const focusStateControl = (e: any) => {
     if (e) {
       e.preventDefault();
     }
@@ -21,8 +21,8 @@ export function RefHook() {
 
   return (
     <>
-      <h2 className="title is-4">{t("refHook.title")}</h2>
-      <p>{t("refHook.description")}</p>
+      <h2 className="title is-4">{t("title")}</h2>
+      <p>{t("description")}</p>
       <form>
         <div className="field mt-4">
           <label className="label">State</label>

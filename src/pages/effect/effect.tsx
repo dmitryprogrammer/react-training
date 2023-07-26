@@ -8,7 +8,7 @@ export function Effect() {
     6: "is-warning",
     7: "is-danger"
   };
-  const {t} = useTranslation();
+  const {t} = useTranslation(null, {keyPrefix: "effectHook"});
   const [clickCount, setClickCount] = useState(0);
   const [increaseButtonClass, setIncreaseButtonClass] = useState("is-info");
 
@@ -22,15 +22,15 @@ export function Effect() {
 
   return (
     <>
-      <h2 className="title is-4">{t("effectHook.title")}</h2>
-      <p>{t("effectHook.description")}</p>
+      <h2 className="title is-4">{t("title")}</h2>
+      <p>{t("description")}</p>
       <div className="buttons mt-4">
         <button className={"button " + increaseButtonClass}
-                onClick={() => setClickCount(clickCount + 1)}>{t("effectHook.increaseButton")}
+                onClick={() => setClickCount(clickCount + 1)}>{t("increaseButton")}
         </button>
       </div>
 
-      <span>{t("effectHook.clickedNotificationText", {clickCount})}</span>
+      <span>{t("clickedNotificationText", {clickCount})}</span>
     </>
   );
 }

@@ -4,7 +4,7 @@ import {useState} from "react";
 type CountSizingAction = "inc" | "dec";
 
 export function StateCounter() {
-  const {t} = useTranslation();
+  const {t} = useTranslation(null, {keyPrefix: "stateHook.examples.counter"});
   const [count, setCount] = useState(0);
   const handleCountSizing = (action: CountSizingAction) => {
     switch (action) {
@@ -25,7 +25,7 @@ export function StateCounter() {
         <button className="button is-info" onClick={() => handleCountSizing("dec")}>-</button>
       </div>
 
-      <p className="mt-4">{t("stateHook.examples.counter.description-1")}</p>
+      <p className="mt-4">{t("description-1")}</p>
     </div>
   );
 }
