@@ -9,6 +9,7 @@ interface NavState {
 
 export function Navigation() {
   const INIT_NAV_STATE: NavState[] = [
+    {link: "/non-hook", title: "nav.non-hook"},
     {link: "/", title: "nav.state"},
     {link: "/effect", title: "nav.effect"},
     {link: "/context", title: "nav.context"},
