@@ -13,7 +13,8 @@ export function Navigation() {
     {link: "/", title: "nav.state"},
     {link: "/effect", title: "nav.effect"},
     {link: "/context", title: "nav.context"},
-    {link: "/ref", title: "nav.ref"}
+    {link: "/ref", title: "nav.ref"},
+    {link: "/calc", title: "nav.calc"},
   ];
 
   const {t} = useTranslation();

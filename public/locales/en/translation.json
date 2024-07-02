@@ -5,7 +5,8 @@
     "non-hook": "Non hook page",
     "effect": "Effect hook",
     "context": "Context hook",
-    "ref": "Ref hook"
+    "ref": "Ref hook",
+    "calc": "Calc"
   },
   "stateHook": {
     "title": "State",
