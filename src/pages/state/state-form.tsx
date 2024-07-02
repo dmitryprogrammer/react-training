@@ -2,10 +2,10 @@ import {KeyboardEvent, useState} from "react";
 import {useTranslation} from "react-i18next";
 
 export function StateForm() {
-  const {t} = useTranslation();
+  const {t} = useTranslation(null, {keyPrefix: "stateHook.examples.form.name"});
   const [name, setName] = useState("");
   const [counterColor, setCounterColor] = useState(["default"]);
-  const nameControlPlaceholder = t("stateHook.examples.form.name.placeholder");
+  const nameControlPlaceholder = t("placeholder");
 
   const changeName = function(e: KeyboardEvent<HTMLInputElement>): void {
     if (e?.currentTarget) {
@@ -15,9 +15,9 @@ export function StateForm() {
   };
 
   return (
-    <form>
+    <form className="block mt-4">
       <div className="field">
-        <label htmlFor="name_control" className="label">{t("stateHook.examples.form.name.title")}</label>
+        <label htmlFor="name_control" className="label">{t("title")}</label>
 
         <div className="control">
           <input className="input" type="text" onKeyUp={changeName}
