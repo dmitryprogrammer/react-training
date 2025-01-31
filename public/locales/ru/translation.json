@@ -26,6 +26,7 @@
     "title": "Хук эффекта",
     "description": "Эта страница демонстрирует работу хука эффекта",
     "increaseButton": "Клинките для увеличения",
+    "decreaseButton": "Клинките для уменьшения",
     "clickedNotificationText": "Вы нажали на увеличение {{clickCount}} раз"
   },
   "contextHook": {
