@@ -5,8 +5,8 @@ export function Effect() {
   const buttonClasses: {[propertyName: number]: string} = {
     1: "is-info",
     4: "is-success",
-    6: "is-warning",
-    7: "is-danger"
+    8: "is-warning",
+    15: "is-danger",
   };
   const {t} = useTranslation(null, {keyPrefix: "effectHook"});
   const [clickCount, setClickCount] = useState(0);
