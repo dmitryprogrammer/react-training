@@ -24,6 +24,10 @@ export function Effect() {
     }
     clickCount >= MAX_COUNT ? setDisableIncBtn(true) : setDisableIncBtn(false);
     clickCount <= MIN_COUNT ? setDisabledeincBtn(true) : setDisabledeincBtn(false);
+
+    return () => {
+      console.log("effect done");
+    };
   }, [clickCount]);
 
   return (
